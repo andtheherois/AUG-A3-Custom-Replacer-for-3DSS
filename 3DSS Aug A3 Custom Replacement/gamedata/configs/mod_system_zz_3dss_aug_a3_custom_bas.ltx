@@ -1,12 +1,13 @@
 ![wpn_aug_a3_custom_bas]
-parent_section							 = wpn_aug_a3_custom_bas
-;>scopes                                  = uh2
+parent_section			= wpn_aug_a3_custom_bas
 
 	s3ds_reticle_size 	= 4
-	s3ds_eye_relief 	= 2.5
+	s3ds_eye_relief 	= 2.7
 	s3ds_chroma_power	= 0	
 	;s3ds_reticle_type	= 7		
 	magnifications 		= 6
+
+	scope_objective_lens_offset = 0, 0, 7, .95
 	
         scope_zoom_factor                = 20
         scope_texture                    =
@@ -22,24 +23,26 @@ anm_shots                                = aug_augmented_idle, idle
 
         fire_point                       = -0.0001, .0057, 0.4
 		
-        hands_orientation                = 0.519681, -0.73842, 0
-        hands_orientation_16x9           = 0.519681, -0.73842, 0
-        hands_position                   = 0.005984, -0.02295, 0.041383
-        hands_position_16x9              = 0.005984, -0.02295, 0.041383
+        hands_orientation                = -0.023034, -0.724763, 0
+        hands_orientation_16x9           = -0.023034, -0.724763, 0
+        hands_position                   = 0.01985, -0.020962, 0.059293
+        hands_position_16x9              = 0.01985, -0.020962, 0.059293
 		
-        aim_hud_offset_alt_pos           = -0.135555, -0.086089, -0.02
-        aim_hud_offset_alt_pos_16x9      = -0.135555, -0.086089, -0.02
-        aim_hud_offset_alt_rot           = 0.000974, 0.024488, 0.7
-        aim_hud_offset_alt_rot_16x9      = 0.000974, 0.024488, 0.7
+        aim_hud_offset_alt_pos           = -0.141582, -0.085805, -0.02
+        aim_hud_offset_alt_pos_16x9      = -0.141582, -0.085805, -0.02
+        aim_hud_offset_alt_rot           = -0.000229, -0.000181, 0.7
+        aim_hud_offset_alt_rot_16x9      = -0.000229, -0.000181, 0.7
 		
-        aim_hud_offset_pos               = -0.060503, 0.015381, -0.158536
-        aim_hud_offset_pos_16x9          = -0.060503, 0.015381, -0.158536
-        aim_hud_offset_rot               = -0.001254, 0.009666, 0
-        aim_hud_offset_rot_16x9          = -0.001254, 0.009666, 0
-		
-![wpn_aug_a3_custom_bas_uh2_hud]:wpn_aug_a3_custom_bas_hud
-item_visual                              = dynamics\weapons\wpn_aug_a3_custom_bas\wpn_aug_a3_custom_bas_uh2_hud.ogf
-        aim_hud_offset_pos               = -0.055711, 0.017632, -0.174997
-        aim_hud_offset_pos_16x9          = -0.055711, 0.017632, -0.174997
-        aim_hud_offset_rot               = 0.019837, -0.011076, 0.01
-        aim_hud_offset_rot_16x9          = 0.019837, -0.011076, 0.01
+        aim_hud_offset_pos               = -0.074187, 0.013209, -0.172773
+        aim_hud_offset_pos_16x9          = -0.074187, 0.013209, -0.172773
+        aim_hud_offset_rot               = -0.000697, -0.000785, 0
+        aim_hud_offset_rot_16x9          = -0.000697, -0.000785, 0
+
+![wpn_aug_a3_custom_bas_off]
+parent_section			= wpn_aug_a3_custom_bas
+	magnifications 		= 1
+	
+        scope_zoom_factor                = 0
+        scope_status                	 = 0
+
+![wpn_aug_a3_custom_bas_off_hud]
